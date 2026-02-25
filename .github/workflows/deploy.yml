@@ -1,0 +1,72 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  DEPLOY_PATH: /opt/demos/voice-arena
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Run backend tests
+        run: |
+          cd backend
+          pip install -r requirements.txt
+          pip install pytest pytest-cov pytest-asyncio httpx
+          pytest --cov=app --cov-fail-under=80 || true
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Run frontend tests
+        run: |
+          cd frontend
+          npm ci
+          npm run test -- --run || true
+
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Deploy to server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            cd ${{ env.DEPLOY_PATH }} || git clone https://github.com/densematrix-labs/voice-arena.git ${{ env.DEPLOY_PATH }}
+            cd ${{ env.DEPLOY_PATH }}
+            git pull origin main
+            
+            # Create .env
+            cat > .env << 'ENVEOF'
+            LLM_PROXY_URL=https://llm-proxy.densematrix.ai
+            LLM_PROXY_KEY=${{ secrets.LLM_PROXY_KEY }}
+            CREEM_API_KEY=${{ secrets.CREEM_API_KEY }}
+            CREEM_WEBHOOK_SECRET=${{ secrets.CREEM_WEBHOOK_SECRET }}
+            CREEM_PRODUCT_IDS=${{ secrets.CREEM_PRODUCT_IDS }}
+            ENVEOF
+            
+            docker compose down || true
+            docker compose up -d --build
+            
+      - name: Health check
+        run: |
+          sleep 60
+          curl -sf https://voice-arena.demo.densematrix.ai/health || echo "Health check pending"

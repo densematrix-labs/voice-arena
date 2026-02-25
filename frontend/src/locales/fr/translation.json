@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "Tarifs",
+    "remaining": "générations restantes"
+  },
+  "hero": {
+    "title1": "Comparez",
+    "title2": "200+ voix IA",
+    "subtitle": "Trouvez votre voix parfaite en comparant plusieurs fournisseurs IA. Edge TTS + OpenAI au même endroit.",
+    "voices": "Voix",
+    "providers": "Fournisseurs",
+    "languages": "Langues"
+  },
+  "input": {
+    "label": "Entrez votre texte",
+    "placeholder": "Tapez ou collez le texte à convertir en parole..."
+  },
+  "filters": {
+    "title": "Filtres",
+    "searchPlaceholder": "Rechercher des voix...",
+    "allLanguages": "Toutes les langues",
+    "allGenders": "Tous les genres",
+    "allProviders": "Tous les fournisseurs",
+    "male": "Masculin",
+    "female": "Féminin",
+    "neutral": "Neutre",
+    "clear": "Effacer les filtres"
+  },
+  "selection": {
+    "selected": "Sélectionné",
+    "clear": "Effacer la sélection",
+    "getMore": "Obtenir plus de générations",
+    "generate": "Générer et comparer",
+    "generating": "Génération..."
+  },
+  "voices": {
+    "title": "Voix disponibles",
+    "showingOf": "Affichage de {{shown}} sur {{total}} voix"
+  },
+  "comparison": {
+    "title": "Vos comparaisons",
+    "download": "Télécharger",
+    "remove": "Supprimer"
+  },
+  "pricing": {
+    "title": "Tarification simple et équitable",
+    "subtitle": "Payez une fois, utilisez quand vous voulez. Pas d'abonnement pour Starter et Pro.",
+    "freeTier": "Version gratuite disponible",
+    "freeDescription": "3 générations gratuites par jour, sans inscription.",
+    "popular": "Le plus populaire",
+    "month": "mois",
+    "unlimited": "Générations illimitées",
+    "tokens": "{{count}} générations",
+    "purchase": "Commencer",
+    "processing": "Traitement...",
+    "comparison": "50-80% moins cher qu'ElevenLabs et Murf. Même qualité, meilleur rapport qualité-prix.",
+    "plans": {
+      "starter": { "name": "Starter" },
+      "pro": { "name": "Pro" },
+      "unlimited": { "name": "Illimité" }
+    },
+    "features": {
+      "multiVoice": "Comparaison multi-voix",
+      "hdQuality": "Qualité audio HD",
+      "download": "Téléchargement MP3",
+      "batch": "Téléchargement groupé (ZIP)",
+      "priority": "Traitement prioritaire",
+      "api": "Accès API"
+    }
+  },
+  "success": {
+    "title": "Paiement réussi !",
+    "subtitle": "Vos jetons ont été ajoutés à votre compte.",
+    "loading": "Chargement de vos jetons...",
+    "yourTokens": "Votre solde",
+    "generations": "générations disponibles",
+    "tokensPending": "Jetons en cours de traitement...",
+    "startGenerating": "Commencer à générer"
+  },
+  "errors": {
+    "noGenerations": "Plus de générations disponibles. Veuillez acheter plus de jetons."
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

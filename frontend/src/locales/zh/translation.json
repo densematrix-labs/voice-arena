@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "价格",
+    "remaining": "次可用"
+  },
+  "hero": {
+    "title1": "对比",
+    "title2": "200+ AI语音",
+    "subtitle": "并排比较多个AI提供商的语音效果，一站式体验Edge TTS和OpenAI语音。",
+    "voices": "语音数量",
+    "providers": "提供商",
+    "languages": "语言"
+  },
+  "input": {
+    "label": "输入文本",
+    "placeholder": "输入或粘贴要转换为语音的文本..."
+  },
+  "filters": {
+    "title": "筛选",
+    "searchPlaceholder": "搜索语音名称...",
+    "allLanguages": "所有语言",
+    "allGenders": "所有性别",
+    "allProviders": "所有提供商",
+    "male": "男声",
+    "female": "女声",
+    "neutral": "中性",
+    "clear": "清除筛选"
+  },
+  "selection": {
+    "selected": "已选择",
+    "clear": "清除选择",
+    "getMore": "获取更多次数",
+    "generate": "生成并对比",
+    "generating": "生成中..."
+  },
+  "voices": {
+    "title": "可用语音",
+    "showingOf": "显示 {{shown}} / {{total}} 个语音"
+  },
+  "comparison": {
+    "title": "对比结果",
+    "download": "下载",
+    "remove": "移除"
+  },
+  "pricing": {
+    "title": "简单公平的定价",
+    "subtitle": "一次付费，随时使用。入门版和专业版无需订阅。",
+    "freeTier": "免费试用",
+    "freeDescription": "每天3次免费生成，无需注册。需要更多时再升级。",
+    "popular": "最受欢迎",
+    "month": "月",
+    "unlimited": "无限次生成",
+    "tokens": "{{count}} 次生成",
+    "purchase": "立即购买",
+    "processing": "处理中...",
+    "comparison": "比ElevenLabs和Murf便宜50-80%。同等品质，更高性价比。",
+    "plans": {
+      "starter": { "name": "入门版" },
+      "pro": { "name": "专业版" },
+      "unlimited": { "name": "无限版" }
+    },
+    "features": {
+      "multiVoice": "多语音对比",
+      "hdQuality": "高清音质",
+      "download": "MP3下载",
+      "batch": "批量下载(ZIP)",
+      "priority": "优先处理",
+      "api": "API接入"
+    }
+  },
+  "success": {
+    "title": "支付成功！",
+    "subtitle": "您的次数已添加到账户。",
+    "loading": "正在加载您的次数...",
+    "yourTokens": "您的余额",
+    "generations": "次可用",
+    "tokensPending": "次数正在处理中...",
+    "startGenerating": "开始生成"
+  },
+  "errors": {
+    "noGenerations": "次数已用完，请购买更多。"
+  },
+  "footer": {
+    "rights": "保留所有权利。"
+  }
+}

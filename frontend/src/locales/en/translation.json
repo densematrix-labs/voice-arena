@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "remaining": "generations left"
+  },
+  "hero": {
+    "title1": "Compare",
+    "title2": "200+ AI Voices",
+    "subtitle": "Find your perfect voice by comparing multiple AI providers side by side. Edge TTS + OpenAI in one place.",
+    "voices": "Voices",
+    "providers": "Providers",
+    "languages": "Languages"
+  },
+  "input": {
+    "label": "Enter your text",
+    "placeholder": "Type or paste the text you want to convert to speech..."
+  },
+  "filters": {
+    "title": "Filters",
+    "searchPlaceholder": "Search voices by name...",
+    "allLanguages": "All Languages",
+    "allGenders": "All Genders",
+    "allProviders": "All Providers",
+    "male": "Male",
+    "female": "Female",
+    "neutral": "Neutral",
+    "clear": "Clear filters"
+  },
+  "selection": {
+    "selected": "Selected",
+    "clear": "Clear selection",
+    "getMore": "Get more generations",
+    "generate": "Generate & Compare",
+    "generating": "Generating..."
+  },
+  "voices": {
+    "title": "Available Voices",
+    "showingOf": "Showing {{shown}} of {{total}} voices"
+  },
+  "comparison": {
+    "title": "Your Comparisons",
+    "download": "Download",
+    "remove": "Remove"
+  },
+  "pricing": {
+    "title": "Simple, Fair Pricing",
+    "subtitle": "Pay once, use anytime. No subscriptions required for starter and pro plans.",
+    "freeTier": "Free Tier Available",
+    "freeDescription": "Get 3 free generations per day, no sign-up required. Upgrade when you need more.",
+    "popular": "Most Popular",
+    "month": "month",
+    "unlimited": "Unlimited generations",
+    "tokens": "{{count}} generations",
+    "purchase": "Get Started",
+    "processing": "Processing...",
+    "comparison": "50-80% cheaper than ElevenLabs and Murf. Same quality, better value.",
+    "plans": {
+      "starter": { "name": "Starter" },
+      "pro": { "name": "Pro" },
+      "unlimited": { "name": "Unlimited" }
+    },
+    "features": {
+      "multiVoice": "Multi-voice comparison",
+      "hdQuality": "HD audio quality",
+      "download": "Download as MP3",
+      "batch": "Batch download (ZIP)",
+      "priority": "Priority processing",
+      "api": "API access"
+    }
+  },
+  "success": {
+    "title": "Payment Successful!",
+    "subtitle": "Your tokens have been added to your account.",
+    "loading": "Loading your tokens...",
+    "yourTokens": "Your Balance",
+    "generations": "generations available",
+    "tokensPending": "Tokens are being processed...",
+    "startGenerating": "Start Generating"
+  },
+  "errors": {
+    "noGenerations": "No generations remaining. Please purchase more tokens."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

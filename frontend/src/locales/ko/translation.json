@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "요금",
+    "remaining": "회 남음"
+  },
+  "hero": {
+    "title1": "비교하세요",
+    "title2": "200개 이상의 AI 음성",
+    "subtitle": "여러 AI 제공업체를 나란히 비교하여 완벽한 음성을 찾으세요. Edge TTS + OpenAI 한곳에서.",
+    "voices": "음성",
+    "providers": "제공업체",
+    "languages": "언어"
+  },
+  "input": {
+    "label": "텍스트 입력",
+    "placeholder": "음성으로 변환할 텍스트를 입력하거나 붙여넣기..."
+  },
+  "filters": {
+    "title": "필터",
+    "searchPlaceholder": "음성 이름 검색...",
+    "allLanguages": "모든 언어",
+    "allGenders": "모든 성별",
+    "allProviders": "모든 제공업체",
+    "male": "남성",
+    "female": "여성",
+    "neutral": "중성",
+    "clear": "필터 지우기"
+  },
+  "selection": {
+    "selected": "선택됨",
+    "clear": "선택 해제",
+    "getMore": "더 많은 생성 횟수 얻기",
+    "generate": "생성 및 비교",
+    "generating": "생성 중..."
+  },
+  "voices": {
+    "title": "사용 가능한 음성",
+    "showingOf": "{{total}}개 중 {{shown}}개 표시"
+  },
+  "comparison": {
+    "title": "비교 결과",
+    "download": "다운로드",
+    "remove": "제거"
+  },
+  "pricing": {
+    "title": "간단하고 공정한 요금",
+    "subtitle": "한 번 결제하면 언제든 사용. 스타터와 프로는 구독 불필요.",
+    "freeTier": "무료 플랜 제공",
+    "freeDescription": "가입 없이 매일 3회 무료 생성. 더 필요할 때 업그레이드.",
+    "popular": "가장 인기",
+    "month": "월",
+    "unlimited": "무제한 생성",
+    "tokens": "{{count}}회 생성",
+    "purchase": "시작하기",
+    "processing": "처리 중...",
+    "comparison": "ElevenLabs와 Murf보다 50-80% 저렴. 같은 품질, 더 나은 가치.",
+    "plans": {
+      "starter": { "name": "스타터" },
+      "pro": { "name": "프로" },
+      "unlimited": { "name": "무제한" }
+    },
+    "features": {
+      "multiVoice": "다중 음성 비교",
+      "hdQuality": "HD 오디오 품질",
+      "download": "MP3 다운로드",
+      "batch": "일괄 다운로드 (ZIP)",
+      "priority": "우선 처리",
+      "api": "API 액세스"
+    }
+  },
+  "success": {
+    "title": "결제 완료!",
+    "subtitle": "토큰이 계정에 추가되었습니다.",
+    "loading": "토큰 로딩 중...",
+    "yourTokens": "잔여 횟수",
+    "generations": "회 사용 가능",
+    "tokensPending": "토큰 처리 중...",
+    "startGenerating": "생성 시작"
+  },
+  "errors": {
+    "noGenerations": "생성 횟수가 모두 소진되었습니다. 토큰을 구매해주세요."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "Precios",
+    "remaining": "generaciones restantes"
+  },
+  "hero": {
+    "title1": "Compara",
+    "title2": "200+ voces IA",
+    "subtitle": "Encuentra tu voz perfecta comparando múltiples proveedores de IA. Edge TTS + OpenAI en un solo lugar.",
+    "voices": "Voces",
+    "providers": "Proveedores",
+    "languages": "Idiomas"
+  },
+  "input": {
+    "label": "Ingresa tu texto",
+    "placeholder": "Escribe o pega el texto que quieres convertir a voz..."
+  },
+  "filters": {
+    "title": "Filtros",
+    "searchPlaceholder": "Buscar voces por nombre...",
+    "allLanguages": "Todos los idiomas",
+    "allGenders": "Todos los géneros",
+    "allProviders": "Todos los proveedores",
+    "male": "Masculino",
+    "female": "Femenino",
+    "neutral": "Neutral",
+    "clear": "Limpiar filtros"
+  },
+  "selection": {
+    "selected": "Seleccionado",
+    "clear": "Limpiar selección",
+    "getMore": "Obtener más generaciones",
+    "generate": "Generar y comparar",
+    "generating": "Generando..."
+  },
+  "voices": {
+    "title": "Voces disponibles",
+    "showingOf": "Mostrando {{shown}} de {{total}} voces"
+  },
+  "comparison": {
+    "title": "Tus comparaciones",
+    "download": "Descargar",
+    "remove": "Eliminar"
+  },
+  "pricing": {
+    "title": "Precios simples y justos",
+    "subtitle": "Paga una vez, usa cuando quieras. Sin suscripción para Starter y Pro.",
+    "freeTier": "Nivel gratuito disponible",
+    "freeDescription": "3 generaciones gratis al día, sin registro requerido.",
+    "popular": "Más popular",
+    "month": "mes",
+    "unlimited": "Generaciones ilimitadas",
+    "tokens": "{{count}} generaciones",
+    "purchase": "Comenzar",
+    "processing": "Procesando...",
+    "comparison": "50-80% más barato que ElevenLabs y Murf. Misma calidad, mejor valor.",
+    "plans": {
+      "starter": { "name": "Starter" },
+      "pro": { "name": "Pro" },
+      "unlimited": { "name": "Ilimitado" }
+    },
+    "features": {
+      "multiVoice": "Comparación multi-voz",
+      "hdQuality": "Calidad de audio HD",
+      "download": "Descarga en MP3",
+      "batch": "Descarga por lotes (ZIP)",
+      "priority": "Procesamiento prioritario",
+      "api": "Acceso API"
+    }
+  },
+  "success": {
+    "title": "¡Pago exitoso!",
+    "subtitle": "Tus tokens han sido añadidos a tu cuenta.",
+    "loading": "Cargando tus tokens...",
+    "yourTokens": "Tu saldo",
+    "generations": "generaciones disponibles",
+    "tokensPending": "Tokens en proceso...",
+    "startGenerating": "Empezar a generar"
+  },
+  "errors": {
+    "noGenerations": "No quedan generaciones. Por favor compra más tokens."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

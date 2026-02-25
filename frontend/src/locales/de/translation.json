@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "pricing": "Preise",
+    "remaining": "Generierungen übrig"
+  },
+  "hero": {
+    "title1": "Vergleiche",
+    "title2": "200+ KI-Stimmen",
+    "subtitle": "Finde deine perfekte Stimme durch Vergleich mehrerer KI-Anbieter. Edge TTS + OpenAI an einem Ort.",
+    "voices": "Stimmen",
+    "providers": "Anbieter",
+    "languages": "Sprachen"
+  },
+  "input": {
+    "label": "Text eingeben",
+    "placeholder": "Gib den Text ein, der in Sprache umgewandelt werden soll..."
+  },
+  "filters": {
+    "title": "Filter",
+    "searchPlaceholder": "Stimmen nach Namen suchen...",
+    "allLanguages": "Alle Sprachen",
+    "allGenders": "Alle Geschlechter",
+    "allProviders": "Alle Anbieter",
+    "male": "Männlich",
+    "female": "Weiblich",
+    "neutral": "Neutral",
+    "clear": "Filter löschen"
+  },
+  "selection": {
+    "selected": "Ausgewählt",
+    "clear": "Auswahl löschen",
+    "getMore": "Mehr Generierungen holen",
+    "generate": "Generieren & Vergleichen",
+    "generating": "Wird generiert..."
+  },
+  "voices": {
+    "title": "Verfügbare Stimmen",
+    "showingOf": "Zeige {{shown}} von {{total}} Stimmen"
+  },
+  "comparison": {
+    "title": "Deine Vergleiche",
+    "download": "Herunterladen",
+    "remove": "Entfernen"
+  },
+  "pricing": {
+    "title": "Einfache, faire Preise",
+    "subtitle": "Einmal zahlen, jederzeit nutzen. Kein Abo für Starter und Pro.",
+    "freeTier": "Kostenlose Stufe verfügbar",
+    "freeDescription": "3 kostenlose Generierungen pro Tag, keine Anmeldung erforderlich.",
+    "popular": "Beliebteste",
+    "month": "Monat",
+    "unlimited": "Unbegrenzte Generierungen",
+    "tokens": "{{count}} Generierungen",
+    "purchase": "Jetzt starten",
+    "processing": "Wird verarbeitet...",
+    "comparison": "50-80% günstiger als ElevenLabs und Murf. Gleiche Qualität, besserer Wert.",
+    "plans": {
+      "starter": { "name": "Starter" },
+      "pro": { "name": "Pro" },
+      "unlimited": { "name": "Unbegrenzt" }
+    },
+    "features": {
+      "multiVoice": "Multi-Stimmen-Vergleich",
+      "hdQuality": "HD-Audioqualität",
+      "download": "Download als MP3",
+      "batch": "Batch-Download (ZIP)",
+      "priority": "Prioritätsverarbeitung",
+      "api": "API-Zugang"
+    }
+  },
+  "success": {
+    "title": "Zahlung erfolgreich!",
+    "subtitle": "Deine Tokens wurden deinem Konto hinzugefügt.",
+    "loading": "Lade deine Tokens...",
+    "yourTokens": "Dein Guthaben",
+    "generations": "Generierungen verfügbar",
+    "tokensPending": "Tokens werden verarbeitet...",
+    "startGenerating": "Jetzt generieren"
+  },
+  "errors": {
+    "noGenerations": "Keine Generierungen übrig. Bitte kaufe mehr Tokens."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
