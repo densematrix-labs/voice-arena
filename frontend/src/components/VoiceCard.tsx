@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Play, Pause, Check, Volume2 } from 'lucide-react'
 import { Voice } from '../lib/api'
 import { motion } from 'framer-motion'

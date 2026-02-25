@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Play, Pause, Download, Trash2, Volume2 } from 'lucide-react'
 import { Voice } from '../lib/api'
