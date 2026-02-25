@@ -9,7 +9,6 @@ import { useUsageStore } from '../lib/usageStore'
 export default function PaymentSuccessPage() {
   const { t } = useTranslation()
   const navigate = useNavigate()
-  const [searchParams] = useSearchParams()
   const [isLoading, setIsLoading] = useState(true)
   
   const { fetchUsage, usage } = useUsageStore()
